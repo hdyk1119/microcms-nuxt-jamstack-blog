@@ -1,19 +1,15 @@
-<template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        microcms-nuxt-jamstack-blog
-      </h1>
-    </div>
-  </div>
+<template lang="pug">
+  .container
+    div
+      logo
+      h1.title microcms-nuxt-jamstack-blog
 </template>
 
 <script>
 export default {}
 </script>
 
-<style>
+<style lang="scss">
 .container {
   margin: 0 auto;
   min-height: 100vh;
