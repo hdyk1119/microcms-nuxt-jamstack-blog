@@ -1,4 +1,5 @@
 <template lang="pug">
+<<<<<<< HEAD
   ul.flex
     li.p-4(
       v-for="content in contents"
@@ -9,6 +10,27 @@
 
 <script>
 import axios from 'axios'
+=======
+  .container
+    div
+      logo
+      h1.title microcms-nuxt-jamstack-blog
+</template>
+
+<script>
+export default {}
+</script>
+
+<style lang="scss">
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+>>>>>>> 489aa993317b986dcc2a106af4ab37d41b544044
 
 export default {
   async asyncData() {
