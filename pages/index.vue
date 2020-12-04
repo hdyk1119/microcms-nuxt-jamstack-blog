@@ -9,21 +9,15 @@
 
 <script>
 import axios from 'axios'
-
 export default {
   async asyncData() {
     const { data } = await axios.get(
-      // your-service-id部分は自分のサービスidに置き換えてください
       'https://hdyk1119.microcms.io/api/v1/blog',
       {
-        // your-api-key部分は自分のapi-keyに置き換えてください
-        headers: { 'X-API-KEY': 'c5a388af-bbc9-4a35-9b4d-647b8615c4d8' }
+        headers: {'X-API-KEY': 'c5a388af-bbc9-4a35-9b4d-647b8615c4d8'}
       }
     )
     return data
   }
 }
 </script>
-
-<style lang="scss">
-</style>
