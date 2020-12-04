@@ -10,13 +10,24 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/markdownit": "^1.2.10",
     "core-js": "^3.6.5",
+    "dayjs": "^1.9.6",
+    "dotenv": "^8.2.0",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+<<<<<<< HEAD
+    "@nuxtjs/tailwindcss": "^3.2.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass": "^1.29.0",
+=======
     "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
+>>>>>>> 489aa993317b986dcc2a106af4ab37d41b544044
     "sass-loader": "^10.1.0"
   }
 }
